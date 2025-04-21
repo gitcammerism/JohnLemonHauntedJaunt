@@ -16,7 +16,7 @@ public class GameEnding : MonoBehaviour
     public AudioSource caughtAudio;
 
     bool m_IsPlayerAtExit;
-    bool m_IsPlayerCaught;
+    public bool m_IsPlayerCaught;
     float m_Timer;
     bool m_HasAudioPlayed;
 
